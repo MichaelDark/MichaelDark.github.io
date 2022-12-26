@@ -18,7 +18,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get surname => 'Temnokhud';
 
   @override
-  String get nickname => 'Michael Dark';
+  String get companyRoleAt => 'Mobile Developer at ';
+
+  @override
+  String get company => 'ProArea';
+
+  @override
+  String get companyLink => 'https://proarea.com';
 
   @override
   String get projects => 'Projects';
@@ -37,4 +43,46 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get linkTelegram => 'https://t.me/MichaelDark';
+
+  @override
+  String get labelPresent => 'present';
+
+  @override
+  String get labelNda => 'NDA';
+
+  @override
+  String get titleSkills => 'Skills';
+
+  @override
+  String get titleTimeline => 'Timeline';
+
+  @override
+  String get skillCategoryLanguages => 'Languages';
+
+  @override
+  String get skillCategoryProgramming => 'Programming languages';
+
+  @override
+  String get skillCategoryTech => 'Technologies & Patterns';
+
+  @override
+  String get skillCategoryDevTools => 'Development tools';
+
+  @override
+  String get skillCategoryApis => 'APIs and 3rd party services';
+
+  @override
+  String get skillCategoryVcs => 'VCS';
+
+  @override
+  String get skillCategoryCicd => 'CI/CD';
+
+  @override
+  String get skillCategoryIap => 'IAP';
+
+  @override
+  String get skillCategoryDbms => 'DBMS';
+
+  @override
+  String get skillCategoryTeamManagement => 'Team Management';
 }

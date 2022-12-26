@@ -12,8 +12,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
-import 'app_localizations_ru.dart';
-import 'app_localizations_uk.dart';
 
 /// Callers can lookup localized strings with an instance of AppLocalizations
 /// returned by `AppLocalizations.of(context)`.
@@ -96,9 +94,7 @@ abstract class AppLocalizations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
-    Locale('en'),
-    Locale('ru'),
-    Locale('uk')
+    Locale('en')
   ];
 
   /// No description provided for @name.
@@ -113,11 +109,23 @@ abstract class AppLocalizations {
   /// **'Temnokhud'**
   String get surname;
 
-  /// No description provided for @nickname.
+  /// No description provided for @companyRoleAt.
   ///
   /// In en, this message translates to:
-  /// **'Michael Dark'**
-  String get nickname;
+  /// **'Mobile Developer at '**
+  String get companyRoleAt;
+
+  /// No description provided for @company.
+  ///
+  /// In en, this message translates to:
+  /// **'ProArea'**
+  String get company;
+
+  /// No description provided for @companyLink.
+  ///
+  /// In en, this message translates to:
+  /// **'https://proarea.com'**
+  String get companyLink;
 
   /// No description provided for @projects.
   ///
@@ -154,6 +162,90 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'https://t.me/MichaelDark'**
   String get linkTelegram;
+
+  /// No description provided for @labelPresent.
+  ///
+  /// In en, this message translates to:
+  /// **'present'**
+  String get labelPresent;
+
+  /// No description provided for @labelNda.
+  ///
+  /// In en, this message translates to:
+  /// **'NDA'**
+  String get labelNda;
+
+  /// No description provided for @titleSkills.
+  ///
+  /// In en, this message translates to:
+  /// **'Skills'**
+  String get titleSkills;
+
+  /// No description provided for @titleTimeline.
+  ///
+  /// In en, this message translates to:
+  /// **'Timeline'**
+  String get titleTimeline;
+
+  /// No description provided for @skillCategoryLanguages.
+  ///
+  /// In en, this message translates to:
+  /// **'Languages'**
+  String get skillCategoryLanguages;
+
+  /// No description provided for @skillCategoryProgramming.
+  ///
+  /// In en, this message translates to:
+  /// **'Programming languages'**
+  String get skillCategoryProgramming;
+
+  /// No description provided for @skillCategoryTech.
+  ///
+  /// In en, this message translates to:
+  /// **'Technologies & Patterns'**
+  String get skillCategoryTech;
+
+  /// No description provided for @skillCategoryDevTools.
+  ///
+  /// In en, this message translates to:
+  /// **'Development tools'**
+  String get skillCategoryDevTools;
+
+  /// No description provided for @skillCategoryApis.
+  ///
+  /// In en, this message translates to:
+  /// **'APIs and 3rd party services'**
+  String get skillCategoryApis;
+
+  /// No description provided for @skillCategoryVcs.
+  ///
+  /// In en, this message translates to:
+  /// **'VCS'**
+  String get skillCategoryVcs;
+
+  /// No description provided for @skillCategoryCicd.
+  ///
+  /// In en, this message translates to:
+  /// **'CI/CD'**
+  String get skillCategoryCicd;
+
+  /// No description provided for @skillCategoryIap.
+  ///
+  /// In en, this message translates to:
+  /// **'IAP'**
+  String get skillCategoryIap;
+
+  /// No description provided for @skillCategoryDbms.
+  ///
+  /// In en, this message translates to:
+  /// **'DBMS'**
+  String get skillCategoryDbms;
+
+  /// No description provided for @skillCategoryTeamManagement.
+  ///
+  /// In en, this message translates to:
+  /// **'Team Management'**
+  String get skillCategoryTeamManagement;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
@@ -165,7 +257,7 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'ru', 'uk'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['en'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -177,8 +269,6 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
     case 'en': return AppLocalizationsEn();
-    case 'ru': return AppLocalizationsRu();
-    case 'uk': return AppLocalizationsUk();
   }
 
   throw FlutterError(
