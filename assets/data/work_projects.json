@@ -1,0 +1,282 @@
+[
+    {
+        "role": "Mobile Developer (Android)",
+        "name": "Rozum Project",
+        "nda": false,
+        "description": "",
+        "labels": [
+            "Android SDK",
+            "Java",
+            "Android Studio",
+            "BitBucket",
+            "MVP Architecture",
+            "Trello",
+            "QR scanner",
+            "REST API"
+        ],
+        "period": {
+            "from": "2018-08-01",
+            "to": "2018-10-01"
+        }
+    },
+    {
+        "role": "Mobile Developer (Android)",
+        "name": "Mobile application",
+        "nda": true,
+        "description": "",
+        "labels": [
+            "Android SDK",
+            "Java",
+            "Kotlin",
+            "Android Studio",
+            "GitLab",
+            "MVP Architecture",
+            "REST API",
+            "Firebase Crashlytics",
+            "Google Maps API",
+            "Jira",
+            "REST API",
+            "Realm",
+            "Jenkins"
+        ],
+        "period": {
+            "from": "2018-10-01",
+            "to": "2019-03-01"
+        }
+    },
+    {
+        "role": "Mobile Developer (Flutter)",
+        "name": "Snitcher Project",
+        "nda": false,
+        "description": "",
+        "labels": [
+            "Flutter SDK",
+            "Dart",
+            "Visual Studio Code",
+            "Android Studio",
+            "Visual Studio Code",
+            "XCode",
+            "GitLab",
+            "Firebase Cloud Messaging",
+            "Firebase Crashlytics",
+            "Jira",
+            "REST API"
+        ],
+        "period": {
+            "from": "2019-03-01",
+            "to": "2019-05-01"
+        }
+    },
+    {
+        "role": "Mobile Developer (Flutter)",
+        "name": "HealthCare Project",
+        "nda": true,
+        "description": "",
+        "labels": [
+            "Flutter SDK",
+            "Flutter Native Plugin",
+            "Kotlin",
+            "Dart",
+            "Swift",
+            "Android Studio",
+            "Visual Studio Code",
+            "XCode",
+            "GitLab",
+            "Sentry",
+            "Jira",
+            "REST API"
+        ],
+        "period": {
+            "from": "2019-05-01",
+            "to": "2019-07-01"
+        }
+    },
+    {
+        "role": "Mobile Developer (Kotlin, Java)",
+        "name": "Rent Project",
+        "nda": true,
+        "description": "",
+        "labels": [
+            "Android SDK",
+            "Java",
+            "Kotlin",
+            "Android Studio",
+            "GitLab",
+            "MVP Architecture",
+            "Firebase Cloud Messaging",
+            "Firebase Crashlytics",
+            "Jira",
+            "REST API"
+        ],
+        "period": {
+            "from": "2019-07-01",
+            "to": "2019-10-01"
+        }
+    },
+    {
+        "role": "Mobile Developer (Flutter)",
+        "name": "Quest Project",
+        "nda": true,
+        "description": "",
+        "labels": [
+            "Flutter SDK",
+            "Dart",
+            "Android Studio",
+            "Visual Studio Code",
+            "XCode",
+            "GitLab",
+            "Google Maps API",
+            "Firebase Cloud Messaging",
+            "Firebase Crashlytics",
+            "Jira",
+            "QR scanner",
+            "REST API"
+        ],
+        "period": {
+            "from": "2019-10-01",
+            "to": "2019-12-01"
+        }
+    },
+    {
+        "role": "Mobile Developer (Kotlin)",
+        "name": "E-learning community app",
+        "nda": true,
+        "description": "",
+        "labels": [
+            "Android SDK",
+            "Java",
+            "Kotlin",
+            "Android Studio",
+            "GitLab",
+            "MVVM Architecture",
+            "Firebase Cloud Messaging",
+            "Firebase Crashlytics",
+            "Jira",
+            "REST API"
+        ],
+        "period": {
+            "from": "2019-12-01",
+            "to": "2020-06-01"
+        }
+    },
+    {
+        "role": "Mobile Developer (Flutter)",
+        "name": "COVID checkpoint app",
+        "nda": true,
+        "description": "",
+        "labels": [
+            "Flutter SDK",
+            "Flutter Web SDK",
+            "Dart",
+            "TypeScript",
+            "Visual Studio Code",
+            "Github",
+            "Google Maps API",
+            "Firebase Authentication",
+            "Firebase Firestore",
+            "Firebase Functions",
+            "Firebase Extensions",
+            "Firebase Storage",
+            "Firebase Hosting",
+            "Firebase Analytics",
+            "Sentry",
+            "Jira",
+            "CodeMagic",
+            "monorepo"
+        ],
+        "period": {
+            "from": "2020-06-01",
+            "to": "2020-12-01"
+        }
+    },
+    {
+        "role": "Lead Mobile Developer (Flutter, Kotlin, Java)",
+        "name": "Mobile app for pregnant women",
+        "nda": true,
+        "description": "",
+        "labels": [
+            "Android SDK",
+            "Flutter SDK",
+            "Flutter Native Plugin",
+            "Java",
+            "Kotlin",
+            "Dart",
+            "Swift",
+            "Android Studio",
+            "Visual Studio Code",
+            "XCode",
+            "Github",
+            "Firebase Authentication",
+            "Firebase Firestore",
+            "Firebase Analytics",
+            "Firebase Cloud Messaging",
+            "sqflite",
+            "Github Actions",
+            "monorepo"
+        ],
+        "period": {
+            "from": "2020-12-01",
+            "to": "2021-11-01"
+        }
+    },
+    {
+        "role": "Lead Mobile Developer (Flutter)",
+        "name": "Mindfulness app",
+        "nda": true,
+        "description": "",
+        "labels": [
+            "Flutter SDK",
+            "Dart",
+            "Visual Studio Code",
+            "Github",
+            "Firebase Authentication",
+            "Firebase Firestore",
+            "Firebase Storage",
+            "Firebase Analytics",
+            "Firebase Cloud Messaging",
+            "Firebase Crashlytics",
+            "Jira",
+            "sqflite",
+            "Github Actions",
+            "monorepo",
+            "Adapty"
+        ],
+        "period": {
+            "from": "2021-11-01",
+            "to": "2022-03-01"
+        }
+    },
+    {
+        "role": "Mobile Developer (Flutter)",
+        "name": "Mental health app",
+        "nda": true,
+        "description": "",
+        "labels": [
+            "Flutter SDK",
+            "Dart",
+            "TypeScript",
+            "Android Studio",
+            "Visual Studio Code",
+            "XCode",
+            "BitBucket",
+            "Google API",
+            "Firebase Authentication",
+            "Firebase Firestore",
+            "Firebase Functions",
+            "Firebase Extensions",
+            "Firebase Hosting",
+            "Firebase Analytics",
+            "Firebase Cloud Messaging",
+            "Firebase Dynamic Links",
+            "Firebase Crashlytics",
+            "Jira",
+            "sqflite",
+            "CodeMagic",
+            "RevenueCat"
+        ],
+        "period": {
+            "from": "2022-03-01",
+            "to": null
+        }
+    }
+]
