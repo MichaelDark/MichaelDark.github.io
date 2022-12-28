@@ -22,6 +22,7 @@ class WorkProjectTimeline extends StatelessWidget {
   Widget build(BuildContext context) {
     return Timeline.tileBuilder(
       shrinkWrap: shrinkWrap,
+      physics: shrinkWrap ? const NeverScrollableScrollPhysics() : null,
       padding: const EdgeInsets.all(16),
       builder: TimelineTileBuilder(
         contentsAlign: ContentsAlign.basic,
