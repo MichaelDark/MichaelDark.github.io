@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  landing_annotations:
+    path: ../landing_annotations
   intl: ^0.17.0
   google_fonts: ^3.0.1
   url_launcher: ^6.1.7
@@ -26,6 +28,8 @@ dev_dependencies:
   flutter_lints: ^2.0.0
   build_runner: ^2.3.2
   flutter_gen_runner: ^5.1.0+1
+  landing_generator: 
+    path: ../landing_generator
 
 flutter:
   uses-material-design: true

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:landing_annotations/landing_annotations.dart';
 
-import '../../models/work_project.dart';
 import '../../utils/build_context_ext.dart';
 
 DateFormat get projectDateFormat => DateFormat("MMM yyyy");

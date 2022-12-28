@@ -12,14 +12,14 @@ import 'package:flutter/widgets.dart';
 class $DataGen {
   const $DataGen();
 
-  /// File path: data/skills.json
-  String get skills => 'data/skills.json';
+  /// File path: data/skill_set.json
+  String get skillSet => 'data/skill_set.json';
 
   /// File path: data/work_projects.json
   String get workProjects => 'data/work_projects.json';
 
   /// List of all assets
-  List<String> get values => [skills, workProjects];
+  List<String> get values => [skillSet, workProjects];
 }
 
 class $ImagesGen {
@@ -111,9 +111,9 @@ class $ImagesGen {
   /// File path: images/ic_telegram.png
   AssetGenImage get icTelegram => const AssetGenImage('images/ic_telegram.png');
 
-  /// File path: images/ic_testflight.png
-  AssetGenImage get icTestflight =>
-      const AssetGenImage('images/ic_testflight.png');
+  /// File path: images/ic_testFlight.png
+  AssetGenImage get icTestFlight =>
+      const AssetGenImage('images/ic_testFlight.png');
 
   /// File path: images/ic_trello.png
   AssetGenImage get icTrello => const AssetGenImage('images/ic_trello.png');
@@ -157,7 +157,7 @@ class $ImagesGen {
         icSqlite,
         icSwift,
         icTelegram,
-        icTestflight,
+        icTestFlight,
         icTrello,
         icTypescript,
         icVscode,

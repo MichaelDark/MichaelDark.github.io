@@ -1,0 +1,9 @@
+# Read about `build.yaml` at https://pub.dartlang.org/packages/build_config
+builders:
+  chopper_generator:
+    target: ":landing_generator"
+    import: "package:landing_generator/landing_generator.dart"
+    builder_factories: ["dataGeneratorFactory"]
+    build_extensions: {".dart": [".landing.dart"]}
+    auto_apply: root_package
+    build_to: source

@@ -64,7 +64,7 @@ class DynamicLabel extends StatelessWidget {
       'storekit': Assets.images.icApple.path,
       'swift': Assets.images.icSwift.path,
       'telegram': Assets.images.icTelegram.path,
-      'testflight': Assets.images.icTestflight.path,
+      'testflight': Assets.images.icTestFlight.path,
       'trello': Assets.images.icTrello.path,
       'typescript': Assets.images.icTypescript.path,
       'visual studio code': Assets.images.icVscode.path,

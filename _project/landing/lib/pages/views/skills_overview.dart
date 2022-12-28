@@ -1,7 +1,7 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
+import 'package:landing_annotations/landing_annotations.dart';
 
-import '../../models/skill.dart';
 import '../../utils/build_context_ext.dart';
 import 'dynamic_label.dart';
 

@@ -1,11 +1,12 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:landing_annotations/landing_annotations.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../config.dart';
+import '../data/skill_set.dart';
+import '../data/work_projects.dart';
 import '../gen/assets.gen.dart';
-import '../gen/skills.gen.dart';
-import '../gen/work_projects.gen.dart';
 import '../utils/build_context_ext.dart';
 import '../utils/color_ext.dart';
 import '../utils/preferences.dart';
@@ -13,8 +14,23 @@ import 'views/skills_overview.dart';
 import 'views/social_button.dart';
 import 'views/work_project_timeline.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  late final List<WorkProject> projects;
+  late final List<SkillSet> skills;
+
+  @override
+  void initState() {
+    super.initState();
+    projects = WorkProjectProvider().getData();
+    skills = SkillSetProvider().getData();
+  }
 
   String getSeamlessBgImagePath(BuildContext context) {
     switch (context.theme.brightness) {
@@ -100,7 +116,7 @@ class HomePage extends StatelessWidget {
                   padding:
                       const EdgeInsets.all(20) - const EdgeInsets.only(top: 8),
                   child: SkillsOverview(
-                    skills: SkillProvider().getSkills(),
+                    skills: skills,
                   ),
                 ),
               ),
@@ -111,7 +127,7 @@ class HomePage extends StatelessWidget {
                   padding:
                       const EdgeInsets.all(20) - const EdgeInsets.only(top: 8),
                   child: WorkProjectTimeline(
-                    projects: WorkProjectProvider().getWorkProjects(),
+                    projects: projects,
                     shrinkWrap: true,
                   ),
                 ),

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:landing_annotations/landing_annotations.dart';
 import 'package:timelines/timelines.dart';
 
 import '../../config.dart';
 import '../../gen/assets.gen.dart';
-import '../../models/work_project.dart';
 import '../../utils/color_ext.dart';
 import 'work_project_content.dart';
 import 'work_project_opposite_content.dart';
