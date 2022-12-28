@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Root"
+    },
+    {
+      "path": "_project/landing",
+      "name": "Landing"
+    },
+    {
+      "path": "_project/landing_generator",
+      "name": "Generator"
+    },
+    {
+      "path": "_project/landing_annotations",
+      "name": "Generator Annotations"
+    },
+  ],
+  "settings": {
+    "files.exclude": {
+      "_project": true
+    }
+  }
+}
